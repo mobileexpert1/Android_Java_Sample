@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:actionMenuTextAppearance">@style/customActionBar</item>
+    </style>
+    <style name="PopupMenu" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#000</item>
+    </style>
+    <style name="customActionBar" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+
+        <style name="ratingbar" parent="@android:style/Widget.RatingBar">
+            <item name="android:progressDrawable">@drawable/ratingbar</item>
+            <item name="android:minHeight">40dip</item>
+            <item name="android:maxHeight">50dip</item>
+        </style>
+    <style name="RatingBarfeed" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="colorControlActivated">@color/colorYellow</item>
+    </style>
+</resources>

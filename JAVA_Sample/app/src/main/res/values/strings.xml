@@ -1,0 +1,920 @@
+<resources>
+    <string name="app_name">PRMGO</string>
+    <string name="username">Username</string>
+    <string name="id_number">ID Number</string>
+    <string name="password">Password</string>
+    <string name="start">START</string>
+    <string name="waiting">WAITING</string>
+    <string name="passengers">PASSENGER</string>
+    <string name="pick_up_passengers">PICK UP PASSENGER</string>
+    <string name="passenger_name">Lisa Smith</string>
+    <string name="location">Location :</string>
+    <string name="location_description">T1 - 0875</string>
+    <string name="wait_time">Wait Time :</string>
+    <string name="time">00:32:51</string>
+    <string name="new_passenger">NEW PASSENGER</string>
+    <string name="pickup">PICKUP</string>
+    <string name="have_Pass">Does the passenger have their boarding pass?</string>
+    <string name="begin">BEGIN</string>
+    <string name="has_Pass">Has Boarding Pass</string>
+    <string name="pre_check">Pre Check-In</string>
+    <string name="lost_Pass">Lost Boarding Pass</string>
+    <string name="scan_pass">SCAN  BOARDING PASS</string>
+    <string name="current">CURRENT</string>
+    <string name="scan_location">SCAN NEW LOCATION</string>
+    <string name="total_time_passenger">Total time with passenger</string>
+    <string name="total_time">00:25:15</string>
+    <string name="you_with">You are with</string>
+    <string name="name">Lisa Smith</string>
+    <string name="time_pickup">Time at pickup</string>
+    <string name="pickup_time">09:30:25</string>
+    <string name="destination">Destination</string>
+    <string name="destination_place">T3 - Gate 27</string>
+    <string name="last_location">Last Scanned Location</string>
+    <string name="location_name">T1-456</string>
+    <string name="add_location">ADD LOCATION</string>
+    <string name="confirmation">CONFIRMATION</string>
+    <string name="final_drop">Is This The Final Drop-Off?</string>
+    <string name="yes_drop">Yes,Final Drop-off</string>
+    <string name="no_drop">Not The Final Drop-off</string>
+    <string name="scanned_location">Scanned Location</string>
+    <string name="scaned_location">T3-457</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="scan_barcode">SCAN BARCODE</string>
+    <string name="passenger">PASSENGER</string>
+    <string name="pickup_form">PICKUP FORM</string>
+    <string name="dispatch_Manager">Dispatcher / Shift Manager</string>
+    <string name="date">Date</string>
+    <string name="date_of_call">Date of Call</string>
+    <string name="time_call">Time of Call</string>
+    <string name="passenger_Name">Passenger Name</string>
+    <string name="email_Address">Email Address</string>
+    <string name="date_Arrival">Date Of Arrival</string>
+    <string name="etd">ETD</string>
+    <string name="org">ORG</string>
+    <string name="type_Assistance">Type of Assistance</string>
+    <string name="wchr">WCHR</string>
+    <string name="wchc">WCHC</string>
+    <string name="other">Other</string>
+    <string name="pick_Location">Requested Pick-Up Location</string>
+    <string name="pickup_Time">Pick-Up Time</string>
+    <string name="requested_pickup_Time">Requested Pick-Up Time</string>
+    <string name="mode_Transport">Mode of Transportation</string>
+    <string name="private_car">Private Car</string>
+    <string name="taxi">Taxi</string>
+    <string name="shuttle">Shuttle</string>
+    <string name="travelling_alone">Travelling Alone?</string>
+    <string name="baggage_assistance">Baggage Assistance Required?</string>
+    <string name="surrey_Operation">Surrey Operation Explained?</string>
+    <string name="waiting_Procedure">Waiting Procedure Explained?</string>
+    <string name="additional_Comments">Additional Comments</string>
+    <string name="to_beFilled">To Be Filled Out By Agent</string>
+    <string name="pax_Assisted">PAX Assisted</string>
+    <string name="agent_TimeLocation">Agent Arrival Time At Location</string>
+    <string name="pick_dropLocation">Agent Arrival Time At Location</string>
+    <string name="timeOfpick">Time Of Pickup</string>
+    <string name="timeOfdrop">Time Of Drop-off</string>
+    <string name="comments">Comment</string>
+    <string name="submit">SUBMIT</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="pickup_drop_off_loc">Pick Up Location</string>
+    <string name="actual_pickup_drop_off_loc">Actual Pick Up Location</string>
+    <string name="welcome">Welcome</string>
+    <string name="donald">Donald</string>
+    <string name="new_location">NEW LOCATION</string>
+    <string name="thank_you">Thank you!\n Here are the new\n location details:</string>
+    <string name="barcode_id">Barcode ID</string>
+    <string name="location_name_title">Location Name</string>
+    <string name="location_group">Location Group</string>
+    <string name="status">Status</string>
+    <string name="enabled">Enabled</string>
+    <string name="description">Description</string>
+    <string name="description_sample">Near Gate 27, on the east side by the sitting area.</string>
+    <string name="return_home">RETURN HOME</string>
+    <string name="location_scan">LOCATION SCAN</string>
+    <string name="enter_details">ENTER DETAILS</string>
+    <string name="location_Name">Location Name:</string>
+    <string name="location_Group">Location Group:</string>
+    <string name="location_Type">Location Type:</string>
+    <string name="webapp">"https://simonmarquis.github.io/QrCode/"</string>
+    <string name="status_scanning">Scanning…</string>
+    <string name="copied_to_clipboard">Copied to clipboard!</string>
+    <string name="content_description_icon">Icon</string>
+    <string name="content_description_copy">Copy</string>
+    <string name="content_description_open">Open</string>
+    <string name="content_description_more">Settings</string>
+    <string name="menu_item_scanner">⚙️ Processor</string>
+    <string name="menu_item_scanner_mlkit">🔥 Firebase ML Kit</string>
+    <string name="menu_item_scanner_zxing">🦓 ZXing</string>
+    <string name="menu_item_mode">⚡ Behavior</string>
+    <string name="menu_item_mode_manual">👉 Manual</string>
+    <string name="menu_item_mode_auto">🤖 Automatic</string>
+    <string name="menu_item_generator">✏️ Generator</string>
+    <string name="went_wrong_msg">Something went wrong, Please try later.</string>
+    <string name="go_back">GO BACK</string>
+
+    <string name="intermediate">INTERMEDIATE</string>
+    <string name="drop_off">DROP OFF</string>
+    <string name="dropOff_Location">Drop Off Location</string>
+    <string name="passenGer">Passenger</string>
+    <string name="timeOf_DropOff">Time Of Drop Off</string>
+    <string name="addComments">ADD COMMENTS</string>
+    <string name="submit_amp_retrun_home">Submit &amp; return Home</string>
+    <string name="submit_dropoff">Submit &amp; Drop off</string>
+    <string name="invalid_loc">Scanned location is disabled or not valid. Please scan valid location bar code.</string>
+    <string name="default_notification_channel_id">1233333444</string>
+
+
+
+
+
+    <string-array name="airlines">
+        <item>Aer Lingus</item>
+        <item>AeroMexico</item>
+        <item>Air Canada</item>
+        <item>Air Canada Jazz</item>
+        <item>Air France</item>
+        <item>Air India</item>
+        <item>Air Italy</item>
+        <item>Air Transat</item>
+        <item>Alitalia</item>
+        <item>American Airlines</item>
+        <item>Avianca Airlines</item>
+        <item>Azores Airlines</item>
+        <item>British Airways</item>
+        <item>Brussels Airlines</item>
+        <item>Caribbean Airlines</item>
+        <item>Cathay Pacific</item>
+        <item>China Eastern</item>
+        <item>China Southern</item>
+        <item>Condor</item>
+        <item>Copa Airlines</item>
+        <item>Delta</item>
+        <item>Egyptair</item>
+        <item>El Al Israel</item>
+        <item>Emirates</item>
+        <item>Ethiopian</item>
+        <item>Etihad</item>
+        <item>Eva Air</item>
+        <item>Flair Airlines</item>
+        <item>Hainan Airlines</item>
+        <item>Icelandair</item>
+        <item>Interjet</item>
+        <item>KLM</item>
+        <item>Korean Air</item>
+        <item>LOT Polish Airlines</item>
+        <item>Lufthansa</item>
+        <item>Pakistan International Airlines</item>
+        <item>Philippine Airlines</item>
+        <item>Sunwing Airlines</item>
+        <item>TAP Air Portugal</item>
+        <item>Turkish Airlines</item>
+        <item>Ukraine International Airlines</item>
+        <item>United Airlines</item>
+        <item>Westjet</item>
+        <item>Aer Lingus</item>
+        <item>AeroMexico</item>
+        <item>Air Canada</item>
+        <item>Air Canada Jazz</item>
+        <item>Air France</item>
+        <item>Air India</item>
+        <item>Air Italy</item>
+        <item>Air Transat</item>
+        <item>Alitalia</item>
+        <item>American Airlines</item>
+        <item>Avianca Airlines</item>
+        <item>Azores Airlines</item>
+        <item>British Airways</item>
+        <item>Brussels Airlines</item>
+        <item>Caribbean Airlines</item>
+        <item>Cathay Pacific</item>
+        <item>China Eastern</item>
+        <item>China Southern</item>
+        <item>Condor</item>
+        <item>Copa Airlines</item>
+        <item>Delta</item>
+        <item>Egyptair</item>
+        <item>El Al Israel</item>
+        <item>Emirates</item>
+        <item>Ethiopian</item>
+        <item>Etihad</item>
+        <item>Eva Air</item>
+        <item>Flair Airlines</item>
+        <item>Hainan Airlines</item>
+        <item>Icelandair</item>
+        <item>Interjet</item>
+        <item>KLM</item>
+        <item>Korean Air</item>
+        <item>LOT Polish Airlines</item>
+        <item>Lufthansa</item>
+        <item>Pakistan International Airlines</item>
+        <item>Philippine Airlines</item>
+        <item>Sunwing Airlines</item>
+        <item>TAP Air Portugal</item>
+        <item>Turkish Airlines</item>
+        <item>Ukraine International Airlines</item>
+        <item>United Airlines</item>
+        <item>Westjet</item>
+    </string-array>
+
+    <!--<string-array name="codes">
+        <item>EIN/EI</item>
+        <item>AMX/AM</item>
+        <item>ACA/AC</item>
+        <item>JZA/QK</item>
+        <item>AFR/AF</item>
+        <item>AIC/AI</item>
+        <item>ISS/IG</item>
+        <item>TSC/TS</item>
+        <item>AZA/AZ</item>
+        <item>AAL/AA</item>
+        <item>AVA/AV</item>
+        <item>RZO/S4</item>
+        <item>BAW/BA</item>
+        <item>BEL/SN</item>
+        <item>BWA/BW</item>
+        <item>CPA/CX</item>
+        <item>CES/MU</item>
+        <item>CSN/CZ</item>
+        <item>CFG/DE</item>
+        <item>CMP/CM</item>
+        <item>DAL/DL</item>
+        <item>MSR/MS</item>
+        <item>ELY/LY</item>
+        <item>UAE/EK</item>
+        <item>ETH/ET</item>
+        <item>ETD/EY</item>
+        <item>EVA/BR</item>
+        <item>FLE/F8</item>
+        <item>CHH/HU</item>
+        <item>ICE/FI</item>
+        <item>AIJ/4O</item>
+        <item>KLM/KL</item>
+        <item>KAL/KE</item>
+        <item>LOT/LO</item>
+        <item>DLH/LH</item>
+        <item>PIA/PK</item>
+        <item>PAL/PR</item>
+        <item>SWG/WG</item>
+        <item>TAP/TP</item>
+        <item>THY/TK</item>
+        <item>AUI/PS</item>
+        <item>UAL/UA</item>
+        <item>WJA/WS</item>
+    </string-array>-->
+    <string-array name="codes">
+        <item>EI</item>
+        <item>AM</item>
+        <item>AC</item>
+        <item>QK</item>
+        <item>AF</item>
+        <item>AI</item>
+        <item>IG</item>
+        <item>TS</item>
+        <item>AZ</item>
+        <item>AA</item>
+        <item>AV</item>
+        <item>S4</item>
+        <item>BA</item>
+        <item>SN</item>
+        <item>BW</item>
+        <item>CX</item>
+        <item>MU</item>
+        <item>CZ</item>
+        <item>DE</item>
+        <item>CM</item>
+        <item>DL</item>
+        <item>MS</item>
+        <item>LY</item>
+        <item>EK</item>
+        <item>ET</item>
+        <item>EY</item>
+        <item>BR</item>
+        <item>F8</item>
+        <item>HU</item>
+        <item>FI</item>
+        <item>4O</item>
+        <item>KL</item>
+        <item>KE</item>
+        <item>LO</item>
+        <item>LH</item>
+        <item>PK</item>
+        <item>PR</item>
+        <item>WG</item>
+        <item>TP</item>
+        <item>TK</item>
+        <item>PS</item>
+        <item>UA</item>
+        <item>WS</item>
+        <item>EIN</item>
+        <item>AMX</item>
+        <item>ACA</item>
+        <item>JZA</item>
+        <item>AFR</item>
+        <item>AIC</item>
+        <item>ISS</item>
+        <item>TSC</item>
+        <item>AZA</item>
+        <item>AAL</item>
+        <item>AVA</item>
+        <item>RZO</item>
+        <item>BAW</item>
+        <item>BEL</item>
+        <item>BWA</item>
+        <item>CPA</item>
+        <item>CES</item>
+        <item>CSN</item>
+        <item>CFG</item>
+        <item>CMP</item>
+        <item>DAL</item>
+        <item>MSR</item>
+        <item>ELY</item>
+        <item>UAE</item>
+        <item>ETH</item>
+        <item>ETD</item>
+        <item>EVA</item>
+        <item>FLE</item>
+        <item>CHH</item>
+        <item>ICE</item>
+        <item>AIJ</item>
+        <item>KLM</item>
+        <item>KAL</item>
+        <item>LOT</item>
+        <item>DLH</item>
+        <item>PIA</item>
+        <item>PAL</item>
+        <item>SWG</item>
+        <item>TAP</item>
+        <item>THY</item>
+        <item>AUI</item>
+        <item>UAL</item>
+        <item>WJA</item>
+    </string-array>
+    <string-array name="classes">
+        <item>R</item>
+        <item>P</item>
+        <item>F</item>
+        <item>A</item>
+        <item>J</item>
+        <item>C</item>
+        <item>D</item>
+        <item>I</item>
+        <item>Z</item>
+        <item>W</item>
+        <item>E</item>
+        <item>S</item>
+        <item>Y</item>
+        <item>B</item>
+        <item>H</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>Q</item>
+        <item>T</item>
+        <item>V</item>
+        <item>X</item>
+    </string-array>
+    <string-array name="categories">
+        <item>First Class Suite</item>
+        <item>First Class Premium</item>
+        <item>First Class</item>
+        <item>First Class Discounted</item>
+        <item>Business Class Premium</item>
+        <item>Business Class</item>
+        <item>Business Class Discounted</item>
+        <item>Business Class Discounted</item>
+        <item>Business Class Discounted</item>
+        <item>Premium Economy</item>
+        <item>Premium Economy Discounted</item>
+        <item>Economy/Coach</item>
+        <item>Economy/Coach</item>
+        <item>Economy/Coach Discounted</item>
+        <item>Economy/Coach Discounted</item>
+        <item>Economy/Coach Discounted</item>
+        <item>Economy/Coach Discounted</item>
+        <item>Economy/Coach Discounted</item>
+        <item>Economy/Coach Discounted</item>
+        <item>Economy/Coach Discounted</item>
+        <item>Economy/Coach Discounted</item>
+        <item>Premium Economy Discounted</item>
+        <item>Economy/Coach Discounted</item>
+        <item>Economy/Coach Discounted</item>
+    </string-array>
+    <string-array name="airline_Codes">
+        <item>2J</item>
+        <item>2M</item>
+        <item>4Z</item>
+        <item>5T</item>
+        <item>5Y</item>
+        <item>6E</item>
+        <item>7F</item>
+        <item>7H</item>
+
+        <item>8P</item>
+        <item>8T</item>
+        <item>9K</item>
+        <item>9K</item>
+        <item>9M</item>
+        <item>9N</item>
+        <item>9R</item>
+        <item>9U</item>
+
+        <item>AA</item>
+        <item>AC</item>
+        <item>AE</item>
+        <item>AF</item>
+        <item>AH</item>
+        <item>AM</item>
+
+        <item>AR</item>
+        <item>AS</item>
+        <item>AT</item>
+        <item>AV</item>
+        <item>AY</item>
+        <item>AZ</item>
+
+        <item>B6</item>
+        <item>BA</item>
+        <item>BE</item>
+        <item>BG</item>
+        <item>BI</item>
+        <item>BP</item>
+
+        <item>BR</item>
+        <item>BS</item>
+        <item>BW</item>
+        <item>BY</item>
+        <item>CA</item>
+        <item>CH</item>
+
+        <item>CI</item>
+        <item>CM</item>
+        <item>CU</item>
+        <item>CX</item>
+        <item>CZ</item>
+        <item>DB</item>
+
+        <item>DE</item>
+        <item>DL</item>
+        <item>EG</item>
+        <item>EI</item>
+        <item>EJ</item>
+        <item>EK</item>
+
+        <item>EL</item>
+        <item>EM</item>
+        <item>EN</item>
+        <item>EQ</item>
+        <item>ET</item>
+        <item>EV</item>
+
+        <item>EZ</item>
+        <item>F9</item>
+        <item>FB</item>
+        <item>FE</item>
+        <item>FG</item>
+        <item>FI</item>
+
+        <item>FJ</item>
+        <item>FO</item>
+        <item>FR</item>
+        <item>GA</item>
+        <item>GB</item>
+        <item>GF</item>
+
+        <item>GZ</item>
+        <item>HA</item>
+        <item>HC</item>
+        <item>HI</item>
+        <item>HM</item>
+        <item>HU</item>
+
+        <item>HW</item>
+        <item>IB</item>
+        <item>IC</item>
+        <item>IE</item>
+        <item>IG</item>
+        <item>IR</item>
+
+        <item>IY</item>
+        <item>IZ</item>
+        <item>JC</item>
+        <item>JL</item>
+        <item>JP</item>
+        <item>JQ</item>
+
+        <item>JU</item>
+        <item>JV</item>
+        <item>KA</item>
+        <item>KE</item>
+        <item>KK</item>
+        <item>KL</item>
+
+        <item>KM</item>
+        <item>KQ</item>
+        <item>KS</item>
+        <item>KU</item>
+        <item>KU</item>
+        <item>KX</item>
+
+        <item>LG</item>
+        <item>LH</item>
+        <item>LI</item>
+        <item>LN</item>
+        <item>LO</item>
+        <item>LO</item>
+
+        <item>LP</item>
+        <item>LX</item>
+        <item>LY</item>
+        <item>M6</item>
+        <item>MD</item>
+        <item>ME</item>
+
+        <item>ME</item>
+        <item>MH</item>
+        <item>MK</item>
+        <item>MO</item>
+        <item>MP</item>
+        <item>MS</item>
+
+        <item>MU</item>
+        <item>MX</item>
+        <item>NF</item>
+        <item>NH</item>
+        <item>NI</item>
+        <item>NK</item>
+
+        <item>NT</item>
+        <item>NU</item>
+        <item>NZ</item>
+        <item>OA</item>
+        <item>OK</item>
+        <item>ON</item>
+
+        <item>OS</item>
+        <item>OU</item>
+        <item>OZ</item>
+        <item>P8</item>
+        <item>PA</item>
+        <item>PB</item>
+
+        <item>PG</item>
+        <item>PK</item>
+        <item>PR</item>
+        <item>PS</item>
+        <item>PW</item>
+        <item>PX</item>
+
+        <item>PY</item>
+        <item>PZ</item>
+        <item>QF</item>
+        <item>QR</item>
+        <item>QS</item>
+        <item>QV</item>
+
+        <item>QX</item>
+        <item>R7</item>
+        <item>RA</item>
+        <item>RC</item>
+        <item>RC</item>
+        <item>RJ</item>
+
+        <item>RO</item>
+        <item>S7</item>
+        <item>SA</item>
+        <item>SB</item>
+        <item>SK</item>
+        <item>SN</item>
+
+        <item>SQ</item>
+        <item>SS</item>
+        <item>SU</item>
+        <item>SV</item>
+        <item>SW</item>
+        <item>SY</item>
+
+        <item>T2</item>
+        <item>T3</item>
+        <item>TC</item>
+        <item>TG</item>
+        <item>TK</item>
+        <item>TL</item>
+
+        <item>TM</item>
+        <item>TN</item>
+        <item>TP</item>
+        <item>TS</item>
+        <item>TU</item>
+        <item>TX</item>
+
+        <item>TY</item>
+        <item>UA</item>
+        <item>UJ</item>
+        <item>UL</item>
+        <item>UM</item>
+        <item>UP</item>
+
+        <item>UP</item>
+        <item>US</item>
+        <item>UX</item>
+        <item>V3</item>
+        <item>VA</item>
+        <item>VH</item>
+
+        <item>VN</item>
+        <item>VR</item>
+        <item>VS</item>
+        <item>VU</item>
+        <item>VX</item>
+        <item>WA</item>
+
+        <item>WB</item>
+        <item>WN</item>
+        <item>WS</item>
+        <item>WY</item>
+        <item>XL</item>
+        <item>XO</item>
+
+        <item>XP</item>
+        <item>XQ</item>
+        <item>YI</item>
+        <item>YM</item>
+        <item>YO</item>
+        <item>YP</item>
+
+        <item>YR</item>
+        <item>YV</item>
+        <item>ZB</item>
+        <item>ZE</item>
+        <item>ZH</item>
+        <item>ZW</item>
+
+
+
+
+
+    </string-array>
+    <string-array name="airlines_Names">
+        <item>Air Burkina</item>
+        <item>Maya Airways</item>
+        <item>Airlink Pty</item>
+        <item>Canadian North</item>
+        <item>Atlas Air</item>
+        <item>Indigo</item>
+        <item>FirstAir</item>
+        <item>RAVN ALASKA</item>
+
+        <item>Pacific Coast Airlines</item>
+        <item>Air Tindi</item>
+        <item>Cape Air</item>
+        <item>Nantucket Airlines</item>
+        <item>Central Mountain Air</item>
+        <item>Tropic Air</item>
+        <item>Satena</item>
+        <item>Air Moldova</item>
+
+        <item>American Airlines</item>
+        <item>Air Canada</item>
+        <item>Mandarin Airlines</item>
+        <item>Air France</item>
+        <item>Air Algerie</item>
+        <item>Aeromexico</item>
+
+        <item>Aerolineas Argentinas</item>
+        <item>Alaska Airlines</item>
+        <item>Royal Air Maroc</item>
+        <item>Avianca</item>
+        <item>Finnair</item>
+        <item>Alitalia</item>
+
+        <item>JetBlue Airways</item>
+        <item>British Airways</item>
+        <item>Flybe</item>
+        <item>Biman Bangladesh Airlines</item>
+        <item>Royal Brunei Airlines</item>
+        <item>Air Botswana Pty.</item>
+
+        <item>EVA Airways Corporation</item>
+        <item>British International Helicopters</item>
+        <item>Caribbean Airlines</item>
+        <item>Thomson Airways</item>
+        <item>Air China</item>
+        <item>Bemidji Airlines</item>
+
+        <item>China Airlines</item>
+        <item>Copa Airlines</item>
+        <item>Cubana Airlines</item>
+        <item>Cathay Pacific Airways</item>
+        <item>China Southern Airline</item>
+        <item>Brit Air</item>
+
+        <item>Condor Flugdienst</item>
+        <item>Delta Airlines</item>
+        <item>Japan Airlines Corp.</item>
+        <item>Aer Lingus</item>
+        <item>New England Airlines</item>
+        <item>Emirates Airlines</item>
+
+        <item>Ellinair</item>
+        <item>Empire Airlines</item>
+        <item>Air Dolomiti</item>
+        <item>TAME</item>
+        <item>Ethiopian Airlines</item>
+        <item>ExpressJet</item>
+
+        <item>Sun - Air of Scandinavia</item>
+        <item>Frontier Airlines</item>
+        <item>Bulgaria Air</item>
+        <item>Far Eastern Air Transport Corporation</item>
+        <item>Ariana-Afghan-Airlines</item>
+        <item>Icelandair</item>
+
+        <item>Fiji Airways</item>
+        <item>Airlines of Tasmania</item>
+        <item>Ryanair</item>
+        <item>Garuda Indonesia</item>
+        <item>Great Barrier Airlines</item>
+        <item>Gulf Air Company G.S.C.</item>
+
+        <item>Air Rarotonga</item>
+        <item>Hawaiian Airlines</item>
+        <item>Air Senegal</item>
+        <item>Papillon Airways</item>
+        <item>Air Seychelles</item>
+        <item>Hainan Airlines</item>
+
+        <item>North Wright Air</item>
+        <item>Iberia Airlines</item>
+        <item>Air India Limited</item>
+        <item>Solomon Airlines</item>
+        <item>Air Italy</item>
+        <item>Iran Air</item>
+
+        <item>Yemenia</item>
+        <item>Arkia Israeli Airlines</item>
+        <item>Japan Air Commuter</item>
+        <item>Japan Airlines</item>
+        <item>Adria Airways</item>
+        <item>Jetstar Airways</item>
+
+        <item>AIR SERBIA</item>
+        <item>Bearskin Lake Air Service</item>
+        <item>Dragonair (Hong Kong Dragon Airlines)</item>
+        <item>Korean Air</item>
+        <item>AtlasGlobal</item>
+        <item>KLM Airlines</item>
+
+        <item>Air Malta</item>
+        <item>Kenya Airways</item>
+        <item>Penair</item>
+        <item>Kuwait Airways Corporation</item>
+        <item>Kam Air</item>
+        <item>Cayman Airways</item>
+
+        <item>Luxair</item>
+        <item>Lufthansa Airlines</item>
+        <item>LIAT</item>
+        <item>Jamahiriya Libyan Arab Airlines</item>
+        <item>LOT Polish Airlines</item>
+        <item>Polish Air-Lot</item>
+
+        <item>LATAM Airlines Peru</item>
+        <item>Swiss International Air Lines</item>
+        <item>El Al Israel Airlines</item>
+        <item>Amerijet International Inc.</item>
+        <item>Air Madagascar</item>
+        <item>MEA - Middle East Airlines</item>
+
+        <item>Middle East</item>
+        <item>Malaysia Airlines</item>
+        <item>Air Mauritius</item>
+        <item>Calm Air International</item>
+        <item>Martinair Holland</item>
+        <item>Egyptair</item>
+
+        <item>China Eastern Airlines</item>
+        <item>Mexicana</item>
+        <item>Air Vanuatu</item>
+        <item>All Nippon Airways</item>
+        <item>Portugalia</item>
+        <item>Spirit Airlines</item>
+
+        <item>Binter Canarias</item>
+        <item>Japan Transocean Air</item>
+        <item>Air New Zealand</item>
+        <item>Olympic Air</item>
+        <item>Czech Airlines</item>
+        <item>Nauru Airlines</item>
+
+        <item>Austrian Air Services</item>
+        <item>Croatia Airlines</item>
+        <item>Asiana Airlines</item>
+        <item>SprintAir</item>
+        <item>Air Blue</item>
+        <item>PAL Airlines</item>
+
+        <item>Bangkok Airways</item>
+        <item>Pakistan International Airways</item>
+        <item>Philippine Airlines</item>
+        <item>Ukraine International Airlines</item>
+        <item>Precision Airlines</item>
+        <item>Air Niugini</item>
+
+        <item>Surinam Airways</item>
+        <item>LATAM Airlines Paraguay</item>
+        <item>Qantas Airways</item>
+        <item>Qatar Airways</item>
+        <item>Smartwings Airlines</item>
+        <item>Lao Airlines</item>
+
+        <item>Horizon Air</item>
+        <item>Aserca Airlines</item>
+        <item>Nepal Airways</item>
+        <item>Atlantic Air Transport</item>
+        <item>Atlantic Airways</item>
+        <item>Royal Jordanian</item>
+
+
+
+
+        <item>TAROM</item>
+        <item>S7</item>
+        <item>South African Airways</item>
+        <item>Aircalin</item>
+        <item>Scandinavian Airlines</item>
+        <item>Brussels Airlines</item>
+
+        <item>Singapore Airlines</item>
+        <item>Corsair</item>
+        <item>Aeroflot Airlines</item>
+        <item>Saudi Arabian Airline</item>
+        <item>Air Namibia</item>
+        <item>Sun Country Airlines</item>
+
+        <item>Thai Air</item>
+        <item>Eastern Airways</item>
+        <item>Air Tanzania</item>
+        <item>Thai Airways International</item>
+        <item>Turkish Airlines</item>
+        <item>Air North Airlines</item>
+
+        <item>LAM - Linhas Aereas de Mocanbique</item>
+        <item>Air Tahiti Nui</item>
+        <item>TAP - Air Portugal</item>
+        <item>Air Transat</item>
+        <item>Tunis Air</item>
+        <item>Air Caraibes</item>
+
+        <item>Air Caledonie</item>
+        <item>United Airlines</item>
+        <item>USA Jet Airlines</item>
+        <item>SriLankan Airlines</item>
+        <item>Air Zimbabwe</item>
+        <item>Air Charter Bahamas</item>
+
+        <item>Bahamas Air</item>
+        <item>US Airways</item>
+        <item>Air Europa</item>
+        <item>CarpatAir</item>
+        <item>Virgin Australia</item>
+        <item>Viva Colombia</item>
+
+        <item>Vietnam Airlines</item>
+        <item>TACV Cabo Verde Airlines</item>
+        <item>Virgin Atlantic Airways</item>
+        <item>Air Ivoire</item>
+        <item>Virgin America</item>
+        <item>KLM City Hopper B.V.</item>
+
+        <item>RwandAir</item>
+        <item>Southwest Airlines</item>
+        <item>WestJet Airlines</item>
+        <item>Oman Air</item>
+        <item>LATAM Airlines Ecuador</item>
+        <item>South East Asian Airlines (SEAIR)</item>
+
+        <item>Xtra Airways</item>
+        <item>Sun Express</item>
+        <item>Air Sunshine Inc.</item>
+        <item>Montenegro Airlines</item>
+        <item>Heli Air Monaco</item>
+        <item>Perimeter Airlines</item>
+
+        <item>Scenic Airlines Inc.</item>
+        <item>Mesa Airlines</item>
+        <item>Air Albania</item>
+        <item>Arcus Air Logistic</item>
+        <item>Shenzhen Airlines</item>
+        <item>Air Wisconsin</item>
+
+
+
+
+
+
+    </string-array>
+</resources>
